@@ -13,7 +13,7 @@ class AvaliadorTest extends TestCase {
 	private $leiloeiro;
 	private $edgar;
 	private $valquiria;
-    private $danilo;
+    	private $danilo;
     
 	//Método padrão, aconselhável manter toda a instanciação de variáveis nesse método
 	public function SetUp(): void{
