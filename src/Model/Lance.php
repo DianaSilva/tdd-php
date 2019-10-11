@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 class Lance {
 
 	private $usuario;
-    private $valor;
+    	private $valor;
     
 	function __construct(Usuario $usuario, $valor) {
 		if ($valor <= 0) {
