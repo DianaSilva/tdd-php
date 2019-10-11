@@ -10,9 +10,15 @@
 
     "autoload": {
         "psr-4": {
-            "Diana\\Apostas\\": "src/"
+            "Diana\\Apostas\\": "src/",
+            "Diana\\Test\\": "test/"
         }
     },
-
-    "require": {}
+    "scripts" :{
+        "unit": "phpunit test"
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    }
 }

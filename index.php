@@ -1,8 +1,8 @@
 <?php
 
-use Diana\Apostas\Model\UsuarioTeste;
+use Diana\Test\UsuarioTest;
 
 require 'vendor/autoload.php';
 
-$test = new UsuarioTeste();
-$test-> validarNome('diana', 'dian');
+$test = new UsuarioTest();
+$test-> testValidarNome();

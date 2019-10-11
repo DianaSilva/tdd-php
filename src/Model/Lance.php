@@ -1,12 +1,16 @@
 <?php
-class Lance{
+
+namespace Diana\Apostas\Model;
+use PHPUnit\Framework\TestCase;
+
+class Lance {
 
 	private $usuario;
     private $valor;
     
-	function __construct(Usuario $usuario, $valor){
+	function __construct(Usuario $usuario, $valor) {
 		if ($valor <= 0) {
-			throw new InvalidArgumentException();
+			throw new \InvalidArgumentException("Todo lance deve ser maior que 0." );
 		}	
 		$this->usuario = $usuario;
 		$this->valor = $valor;
