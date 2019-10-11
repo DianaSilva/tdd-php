@@ -8,7 +8,7 @@ use Diana\Apostas\Model\Usuario;
 class Leilao {
 
 	private $descricao;
-    private $lances;
+    	private $lances;
     
 	function __construct($descricao)
 	{
