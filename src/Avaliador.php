@@ -8,7 +8,7 @@ class Avaliador{
 
 	private $maiorValor = -INF;
 	private $menorValor = INF;
-    private $maiores;
+    	private $maiores;
     
 	public function avaliar(Leilao $leilao) {
 		
