@@ -18,7 +18,7 @@ class Leilao {
     
 	public function propoe(Lance $lance)
 	{
-		if (count($this->lances) === 0 || $this->darLance($lance->getUsuario()))
+		if (count($this->lances) == 0 || $this->darLance($lance->getUsuario()))
 			$this->lances[] = $lance;
     }
     
